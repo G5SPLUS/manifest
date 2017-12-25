@@ -102,7 +102,7 @@
   <!--temp my stuff -->
   <project name="G5SPLUS/device_motorola_sanders" path="device/motorola/sanders" remote="github" revision="validus" />
   <project name="G5SPLUS/vendor_motorola_sanders" path="vendor/motorola/sanders" remote="github" revision="validus" />
-  <project name="G5SPLUS/kernel_motorola_msm8953" path="kernel/motorola/msm8953" remote="github" revision="validus" />
+  <project name="G5SPLUS/kernel_motorola_msm8953" path="kernel/motorola/msm8953" remote="github" revision="gzosp" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.0" />
 
 
