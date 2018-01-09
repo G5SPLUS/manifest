@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="local"
+           fetch="file:///media/chris/7ecb29a4-547c-406a-b17f-7fcb8868e5cc/G5SPLUS" />
+
   <remote  name="github"
            fetch="https://github.com" />
 
@@ -102,9 +105,9 @@
   <project path="system/vold" name="system_vold" groups="pdk" remote="gzosp" />
 
   <!--temp my stuff -->
-  <project name="G5SPLUS/device_motorola_sanders" path="device/motorola/sanders" remote="github" revision="validus" />
-  <project name="G5SPLUS/vendor_motorola_sanders" path="vendor/motorola/sanders" remote="github" revision="validus" />
-  <project name="G5SPLUS/kernel_motorola_msm8953" path="kernel/motorola/msm8953" remote="github" revision="gzosp" />
+  <project name="sanders" path="device/motorola/sanders" remote="local" revision="validus" />
+  <project name="vendor_motorola_sanders" path="vendor/motorola/sanders" remote="local" revision="validus" />
+  <project name="kernel_motorola_msm8953" path="kernel/motorola/msm8953" remote="local" revision="gzosp" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.0" />
 
 
