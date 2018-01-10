@@ -107,7 +107,7 @@
   <!--temp my stuff -->
   <project name="sanders" path="device/motorola/sanders" remote="local" revision="validus" />
   <project name="vendor_motorola_sanders" path="vendor/motorola/sanders" remote="local" revision="validus" />
-  <project name="modded_alize_sanders" path="kernel/motorola/msm8953" remote="local" revision="test" />
+  <project name="modded_alize_sanders" path="kernel/motorola/msm8953" remote="local" revision="8.1" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.0" />
 
 
