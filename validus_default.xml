@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="local"
-           fetch="file:///media/chris/7ecb29a4-547c-406a-b17f-7fcb8868e5cc/G5SPLUS" />
+           fetch="file:///media/chris/fe9c6e73-150e-490a-955b-f5d91fa10221" />
 
   <remote  name="github"
            fetch="https://github.com" />
