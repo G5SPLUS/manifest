@@ -4,6 +4,9 @@
   <remote  name="local"
            fetch="file:///media/chris/fe9c6e73-150e-490a-955b-f5d91fa10221" />
 
+  <remote  name="local2"
+           fetch="file:///media/chris/fe9c6e73-150e-490a-955b-f5d91fa10221/Untitled Folder/validus/new" />
+
   <remote  name="github"
            fetch="https://github.com" />
 
@@ -109,8 +112,8 @@
   <project path="system/vold" name="system_vold" groups="pdk" remote="gzosp" />
 
   <!--temp my stuff -->
-  <project name="sanders" path="device/motorola/sanders" remote="local" revision="validus" />
-  <project name="vendor_motorola_sanders" path="vendor/motorola/sanders" remote="local" revision="validus" />
+  <project name="device_motorola_sanders" path="device/motorola/sanders" remote="local2" revision="validus" />
+  <project name="vendor_motorola_sanders" path="vendor/motorola/sanders" remote="local2" revision="validus" />
   <project name="kernel_motorola_msm8953" path="kernel/motorola/msm8953" remote="local" revision="gzosp" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="staging/lineage-15.1" />
 
